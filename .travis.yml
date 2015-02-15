@@ -5,3 +5,11 @@ android:
         - build-tools-21.1.1
 
 script: cd MichisExampleApp && gradle :app:assembleDebug
+
+deploy:
+    provider: releases
+    api_key: "69416aec83ebc2d177275a59274ffa6a53a3d9bc"
+    file: "./app/build/outputs/apk/app-debug.apk"
+    skip_cleanup: true
+    on:
+        tags: true
