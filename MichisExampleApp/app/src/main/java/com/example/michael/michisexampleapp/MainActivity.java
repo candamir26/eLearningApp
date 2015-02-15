@@ -8,7 +8,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.animation.RotateAnimation;
 import android.widget.TextView;
-
+//Useless comment
 
 public class MainActivity extends ActionBarActivity {
 
